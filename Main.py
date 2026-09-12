@@ -112,7 +112,7 @@ button_01.pack(pady = 10)
 button_frame.grid(column = 0, row = 0, sticky = 'nsew')
 
 # создадим холст для картинок и встроим его в решетку
-canvas = tk.Canvas(window, background = 'green', bd = 0, highlightthickness = 0, relief = 'ridge')
+canvas = tk.Canvas(window, background = 'blue', bd = 0, highlightthickness = 0, relief = 'ridge')
 canvas.grid(column = 1, columnspan = 3, row = 0, sticky = 'nsew')
 
 # повесим на холст функцию изменения размера изображения
